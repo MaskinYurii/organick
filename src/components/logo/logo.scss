@@ -1,0 +1,14 @@
+@import "./../../style/variables";
+
+.logo{
+  display: flex;
+  align-items: center;
+  gap: 0 5px;
+
+
+  // Logo text
+  color: $dark-blue;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 38px;
+}

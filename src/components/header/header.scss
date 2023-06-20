@@ -1,0 +1,29 @@
+@import './../../style/variables.scss';
+
+header{
+  li{
+    cursor: pointer;
+    transition: 0.3s all;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: $dark-blue;
+  }
+  .dropdown{
+    &:hover ul{
+      display: block;
+      animation-name: show;
+      animation-duration: 0.3s;
+    }
+  }
+
+  @keyframes show {
+    0%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 100%;
+    }
+  }
+}

@@ -1,0 +1,24 @@
+@import './../../style/variables';
+
+.search-field{
+  position: relative;
+  .search-input{
+    max-width: 376px;
+    height: 66px;
+
+    padding: 10px 77px 10px 15px;
+
+    background-color: #FAFAFA;
+    border-radius: 36px;
+  }
+
+  .search-icon{
+    background-color: $green;
+
+    position: absolute;
+    right: 6px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+  }
+}

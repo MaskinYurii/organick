@@ -1,0 +1,39 @@
+@import './../../style/variables';
+
+.button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 10px;
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+
+  padding: 0 39px;
+  min-width: 220px;
+  height: 80px;
+
+
+  border-radius: 16px;
+  transition: 0.3s all;
+
+  &_dark{
+    color: #fff;
+    background-color: $dark-blue;
+  }
+
+  &_yellow{
+    color: $dark-blue;
+    background-color: $yellow;
+  }
+
+  &:hover{
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid #274C5B;
+    color: $dark-blue;
+  }
+  &:active{
+    background: rgba(255, 255, 255, .7);
+  }
+}
